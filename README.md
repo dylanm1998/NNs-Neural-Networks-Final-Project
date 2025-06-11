@@ -35,6 +35,10 @@ Collect greenhouse data from 1/1/2023  00:00:00 AM to 12/31/2023  11:55:00 PM
 | r_win_pwr         | Right Window Power                     |
 | curtain1_pwr      | Curtain 1 Power                        |
 | curtain2_pwr      | Curtain 2 Power                        |
+
+
+
+
 To run the code
 Step 1
 Download the greenhouse dataset from final_project_data.csv
