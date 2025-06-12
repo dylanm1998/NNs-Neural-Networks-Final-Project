@@ -38,7 +38,7 @@ Collect greenhouse data from 1/1/2023  00:00:00 AM to 12/31/2023  11:55:00 PM
 | curtain2_pwr      | Curtain 2 Power                        |
 
 ## Kind reminder 
-Caution: TensorFlow 2.10 was the last TensorFlow release that supported GPU on native-Windows. Starting with TensorFlow 2.11, you will need to install TensorFlow in WSL2, or install tensorflow or tensorflow-cpu and, optionally, try the TensorFlow-DirectML-Plugin.[Source: https://www.tensorflow.org/install/pip]
+Caution: TensorFlow 2.10 was the last TensorFlow release that supported GPU on native-Windows. Starting with TensorFlow 2.11, you will need to install TensorFlow in WSL2, or install tensorflow or tensorflow-cpu and, optionally, try the TensorFlow-DirectML-Plugin. [Source: https://www.tensorflow.org/install/pip]
  - The code was made based on Tensorflow >= 2.16. If you want to run it on a GPU, you have to use a Linux system.
    How to do:
     - python3 -m pip install 'tensorflow[and-cuda]'
