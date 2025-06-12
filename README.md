@@ -1,4 +1,4 @@
-# 🌿 Greenhouse Environment and Electricity Prediction based on the TCN (Temporal Convolutional Networks) Model
+# 🌿 Greenhouse Environment Prediction based on the TCN (Temporal Convolutional Networks) Model
 
 ## 🎯 Goal
 
