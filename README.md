@@ -37,34 +37,76 @@ Collect greenhouse data from 1/1/2023  00:00:00 AM to 12/31/2023  11:55:00 PM
 | curtain1_pwr      | Curtain 1 Power                        |
 | curtain2_pwr      | Curtain 2 Power                        |
 
-## Kind reminder 
-Caution: TensorFlow 2.10 was the last TensorFlow release that supported GPU on native-Windows. Starting with TensorFlow 2.11, you will need to install TensorFlow in WSL2, or install tensorflow or tensorflow-cpu and, optionally, try the TensorFlow-DirectML-Plugin. [Source: https://www.tensorflow.org/install/pip]
- - The code was made based on Tensorflow >= 2.16. If you want to run it on a GPU, you have to use a Linux system.
-   How to do:
-    - python3 -m pip install 'tensorflow[and-cuda]'
-    - pip install [Other utilized libraries]
+## ⚠️ Kind Reminder
 
- - If you want to run it in Windows native system (Win 11, Win 10, etc.). You should install Tensorflow <= 2.10; we strongly recommend that you use Anaconda.
-   How to do:
-   1. Create a virtual environment in Anaconda
-    - conda create -n {env_name} python=3.10.16
-      
-   2. (Optional) Install Jupyter Notebook
-    - conda install conda-forge::jupyter
-      
-   3. Install cudatoolkit and cudnn:
-    - conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
-      
-   4. Install tendorflow 2.10.1:
-    - python -m pip install "tensorflow<2.11"
- 
-   5. Downgrade the version of Numpy:
-    - python -m pip install "numpy<2"
-  
-  - You could get more model information here:
-   - TCN proposed paper: https://arxiv.org/abs/1803.01271
-   - TCN PyTorch: https://github.com/locuslab/TCN?tab=readme-ov-file
-   - TCN Keras: https://github.com/philipperemy/keras-tcn
+> **Caution:** TensorFlow 2.10 was the last release that supported GPU on native Windows.  
+> Starting with TensorFlow 2.11, to run TensorFlow with GPU support, you must either use **WSL2** or install `tensorflow`/`tensorflow-cpu` with optional [TensorFlow-DirectML-Plugin](https://www.tensorflow.org/install/pip).
+
+---
+
+## 💻 Running Environment Guide
+
+### 1️⃣ Linux System (Recommended for TensorFlow >= 2.16 + GPU)
+
+If you are using **Linux** and want GPU support with TensorFlow >= 2.16:
+
+```bash
+python3 -m pip install 'tensorflow[and-cuda]'
+pip install [other required libraries]
+
+### 2️⃣ Native Windows System (Win 10 / Win 11) - TensorFlow <= 2.10
+
+If you want to run it on **native Windows**, you should use **TensorFlow <= 2.10**.  
+We strongly recommend using **Anaconda** to manage your environment.
+
+#### Step-by-step:
+
+1. **Create a virtual environment**:
+
+    ```bash
+    conda create -n {env_name} python=3.10.16
+    ```
+
+2. **(Optional) Install Jupyter Notebook**:
+
+    ```bash
+    conda install -c conda-forge jupyter
+    ```
+
+3. **Install CUDA Toolkit and cuDNN**:
+
+    ```bash
+    conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+    ```
+
+4. **Install TensorFlow 2.10.1**:
+
+    ```bash
+    python -m pip install "tensorflow<2.11"
+    ```
+
+5. **Downgrade NumPy version (required for compatibility)**:
+
+    ```bash
+    python -m pip install "numpy<2"
+    ```
+
+---
+
+### 📚 More about TCN
+
+- [TCN Proposed Paper (arXiv)](https://arxiv.org/abs/1803.01271)
+- [TCN PyTorch Implementation](https://github.com/locuslab/TCN)
+- [TCN Keras Implementation](https://github.com/philipperemy/keras-tcn)
+
+---
+
+### ✅ Notes
+
+- The code is based on **TensorFlow >= 2.16**. If you want to run it on GPU, using a **Linux system** is highly recommended.
+- If running on **native Windows**, use **TensorFlow <= 2.10**.
+
+---
      
 ## Acknowledgement
 This work was carried out with the support of "Cooperative Research Program for Agriculture Science and Technology Development (Project No. RS-2021-RD010195)", Rural Development Administration, Republic of Korea.
