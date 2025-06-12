@@ -48,8 +48,10 @@ Utilize the **TCN model** to predict the environment in the greenhouse based on 
 
 ---
 
-## Our Model Arichitecture (Based on our set parameters)
-![image](https://github.com/user-attachments/assets/85e230d0-3271-42d5-b88d-2c3048ac4ea0)
+## 🏗️ Our Model Architecture (Based on the configured parameters)
+
+![Model Architecture](https://github.com/user-attachments/assets/85e230d0-3271-42d5-b88d-2c3048ac4ea0)
+
 
 ## ⚠️ Kind Reminder
 
