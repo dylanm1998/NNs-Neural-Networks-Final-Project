@@ -48,7 +48,7 @@ Caution: TensorFlow 2.10 was the last TensorFlow release that supported GPU on n
    How to do:
    1. Create a virtual environment in Anaconda
     - conda create -n {env_name} python=3.10.16
-   2.(Optional) Install Jupyter Notebook
+   2. (Optional) Install Jupyter Notebook
     - conda install conda-forge::jupyter
    3. Install cudatoolkit and cudnn:
     - conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
