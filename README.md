@@ -55,9 +55,9 @@ python3 -m pip install 'tensorflow[and-cuda]'
 pip install [other required libraries]
 ```
 
-### 2️⃣ Native Windows System (Win 10 / Win 11) - TensorFlow <= 2.10
+### 2️⃣ Native Windows System (Win 10 / Win 11) - (Recommended for TensorFlow <= 2.10 + GPU)
 
-If you want to run it on **native Windows**, you should use **TensorFlow <= 2.10**.  
+If you want to run it with a GPU on **native Windows**, you should use **TensorFlow <= 2.10**.  
 We strongly recommend using **Anaconda** to manage your environment.
 
 #### Step-by-step:
