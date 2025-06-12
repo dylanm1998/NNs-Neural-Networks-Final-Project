@@ -48,14 +48,19 @@ Caution: TensorFlow 2.10 was the last TensorFlow release that supported GPU on n
    How to do:
    1. Create a virtual environment in Anaconda
     - conda create -n {env_name} python=3.10.16
+      
    2. (Optional) Install Jupyter Notebook
     - conda install conda-forge::jupyter
+      
    3. Install cudatoolkit and cudnn:
     - conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+      
    4. Install tendorflow 2.10.1:
     - python -m pip install "tensorflow<2.11"
  
-5. Downgrade the version of Numpy:
-python -m pip install "numpy<2"
+   5. Downgrade the version of Numpy:
+    - python -m pip install "numpy<2"
+  
+  
 ## Acknowledgement
 This work was carried out with the support of "Cooperative Research Program for Agriculture Science and Technology Development (Project No. RS-2021-RD010195)", Rural Development Administration, Republic of Korea.
