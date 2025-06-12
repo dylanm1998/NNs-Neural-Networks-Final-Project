@@ -116,8 +116,8 @@ We strongly recommend using **Anaconda** to manage your environment.
 
 ### ✅ Notes
 
-- The code is based on **TensorFlow >= 2.16**. If you want to run it on GPU, using a **Linux system** is highly recommended.
-- If running on **native Windows**, use **TensorFlow <= 2.10**.
+- The code is based on **TensorFlow >= 2.16**. If you want to run it on a GPU, using a **Linux system** is highly recommended.
+- If running on **native Windows**, use **TensorFlow <= 2.10**, and you need to modify the import of Keras-related libraries.
 
 ---
      
