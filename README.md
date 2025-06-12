@@ -36,14 +36,8 @@ Collect greenhouse data from 1/1/2023  00:00:00 AM to 12/31/2023  11:55:00 PM
 | curtain1_pwr      | Curtain 1 Power                        |
 | curtain2_pwr      | Curtain 2 Power                        |
 
+## Kind reminder 
 
-
-
-To run the code
-Step 1
-Download the greenhouse dataset from final_project_data.csv
-Step 2
-The prediction model is obtained by running
 
 ## Acknowledgement
 This work was carried out with the support of "Cooperative Research Program for Agriculture Science and Technology Development (Project No. RS-2021-RD010195)" Rural Development Administration, Republic of Korea.
