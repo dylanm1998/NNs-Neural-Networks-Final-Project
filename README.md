@@ -1,41 +1,53 @@
-# Greenhouse environment and electricity prediction based on the TCN (Temporal Convolutional Networks) model
+# 🌿 Greenhouse Environment and Electricity Prediction based on the TCN (Temporal Convolutional Networks) Model
 
-Goal: 
-Utilize the TCN model to predict the environment in the greenhouse based on the previous statement
+## 🎯 Goal
 
-Data Collection：
-Collect greenhouse data from 1/1/2023  00:00:00 AM to 12/31/2023  11:55:00 PM
+Utilize the **TCN model** to predict the environment in the greenhouse based on historical data.
+
+---
+
+## 📅 Data Collection
+
+- **Period**: from `2023-01-01 00:00:00 AM` to `2023-12-31 11:55:00 PM`
+- **Source**: Greenhouse sensor and control system logs
+
+---
+
+## 🗂️ Dataset Fields
 
 | Abbreviation    | Full English Name                               |
-|:-----------------:|:-------------------------------------:|
-| datetime          | Datetime                              |
-| in_temp           | Internal Temperature                   |
-| in_humi           | Internal Humidity                      |
-| in_co2            | Internal CO₂ Concentration             |
-| out_temp          | External Temperature                   |
-| wind_dir          | Wind Direction                         |
-| wind_spd          | Wind Speed                             |
-| solar_rad         | Solar Radiation                        |
-| cum_solar_rad     | Cumulative Solar Radiation              |
-| dew_point         | Dew Point Temperature                  |
-| rain_sig1         | Rain Signal 1                          |
-| rain_sig2         | Rain Signal 2                          |
-| storm_sig         | Storm Signal                           |
-| hvac              | Heating Ventilation Air Conditioning (HVAC) |
-| fan               | Circulation Fan                        |
-| sprayer           | Sprayer                                |
-| l_win             | Left Window                            |
-| r_win             | Right Window                           |
-| curtain1          | Curtain 1                              |
-| curtain2          | Curtain 2                              |
-| tube_rail_pwr     | Tube Rail Power                        |
-| fcu_pwr           | Fan Coil Unit Power                    |
-| fan_pwr           | Circulation Fan Power                  |
-| sprayer_pwr       | Sprayer Power                          |
-| l_win_pwr         | Left Window Power                      |
-| r_win_pwr         | Right Window Power                     |
-| curtain1_pwr      | Curtain 1 Power                        |
-| curtain2_pwr      | Curtain 2 Power                        |
+|:---------------:|:-----------------------------------------------|
+| datetime        | Datetime                                       |
+| in_temp         | Internal Temperature                           |
+| in_humi         | Internal Humidity                              |
+| in_co2          | Internal CO₂ Concentration                     |
+| out_temp        | External Temperature                           |
+| wind_dir        | Wind Direction                                 |
+| wind_spd        | Wind Speed                                     |
+| solar_rad       | Solar Radiation                                |
+| cum_solar_rad   | Cumulative Solar Radiation                      |
+| dew_point       | Dew Point Temperature                          |
+| rain_sig1       | Rain Signal 1                                  |
+| rain_sig2       | Rain Signal 2                                  |
+| storm_sig       | Storm Signal                                   |
+| hvac            | Heating Ventilation Air Conditioning (HVAC)    |
+| fan             | Circulation Fan                                |
+| sprayer         | Sprayer                                        |
+| l_win           | Left Window                                    |
+| r_win           | Right Window                                   |
+| curtain1        | Curtain 1                                      |
+| curtain2        | Curtain 2                                      |
+| tube_rail_pwr   | Tube Rail Power                                |
+| fcu_pwr         | Fan Coil Unit Power                            |
+| fan_pwr         | Circulation Fan Power                          |
+| sprayer_pwr     | Sprayer Power                                  |
+| l_win_pwr       | Left Window Power                              |
+| r_win_pwr       | Right Window Power                             |
+| curtain1_pwr    | Curtain 1 Power                                |
+| curtain2_pwr    | Curtain 2 Power                                |
+
+---
+
 
 ## ⚠️ Kind Reminder
 
