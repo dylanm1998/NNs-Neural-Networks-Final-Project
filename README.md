@@ -53,6 +53,7 @@ If you are using **Linux** and want GPU support with TensorFlow >= 2.16:
 ```bash
 python3 -m pip install 'tensorflow[and-cuda]'
 pip install [other required libraries]
+```
 
 ### 2️⃣ Native Windows System (Win 10 / Win 11) - TensorFlow <= 2.10
 
