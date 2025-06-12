@@ -61,6 +61,10 @@ Caution: TensorFlow 2.10 was the last TensorFlow release that supported GPU on n
    5. Downgrade the version of Numpy:
     - python -m pip install "numpy<2"
   
-  
+  - You could get more model information here:
+   - TCN proposed paper: https://arxiv.org/abs/1803.01271
+   - TCN PyTorch: https://github.com/locuslab/TCN?tab=readme-ov-file
+   - TCN Keras: https://github.com/philipperemy/keras-tcn
+     
 ## Acknowledgement
 This work was carried out with the support of "Cooperative Research Program for Agriculture Science and Technology Development (Project No. RS-2021-RD010195)", Rural Development Administration, Republic of Korea.
