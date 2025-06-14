@@ -15,6 +15,8 @@ Utilize the **TCN model** to predict the environment in the greenhouse based on 
 
 ## 🗂️ Dataset Fields
 
+<div align="center">
+
 | Abbreviation    | Full English Name                               |
 |:---------------:|:-----------------------------------------------|
 | datetime        | Datetime                                       |
@@ -45,6 +47,7 @@ Utilize the **TCN model** to predict the environment in the greenhouse based on 
 | r_win_pwr       | Right Window Power                             |
 | curtain1_pwr    | Curtain 1 Power                                |
 | curtain2_pwr    | Curtain 2 Power                                |
+</div>
 
 ---
 
